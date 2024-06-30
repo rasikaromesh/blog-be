@@ -1,4 +1,4 @@
-FROM openjdk AS build
+FROM maven:3.9.8 AS build
 #RUN apt-get update && \
 #    apt-get install -y maven && \
 #    rm -rf /var/lib/apt/lists/*
